@@ -378,10 +378,10 @@ section .title::after{
     width: 70%;
 }
 
-/* teams section styling */
+/* teams section styling 
 .Qualification .title::after{
     content: "what i educated";
-}
+}*/
 .Qualification .carousel .card{
     background: #222;
     border-radius: 6px;
@@ -407,8 +407,9 @@ section .title::after{
     font-size: 25px;
     font-weight: 500;
     margin: 10px 0 7px 0;
+    color: white;
 }
-.Qualification .carousel .card img{
+/*.Qualification .carousel .card img{
     height: 150px;
     width: 150px;
     object-fit: cover;
@@ -418,7 +419,7 @@ section .title::after{
 }
 .Qualification .carousel .card:hover img{
     border-color: #fff;
-}
+}*/
 .owl-dots{
     text-align: center;
     margin-top: 20px;
