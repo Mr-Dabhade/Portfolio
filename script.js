@@ -48,7 +48,7 @@ $(document).ready(function(){
         loop: true
     });
 
-    /* owl carousel script
+    // owl carousel script
     $('.carousel').owlCarousel({
         margin: 20,
         loop: true,
@@ -69,5 +69,5 @@ $(document).ready(function(){
                 nav: false
             }
         }
-    });*/
+    });
 });
