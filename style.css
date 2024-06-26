@@ -35,13 +35,12 @@ section{
     padding: 0 80px;
     margin: auto;
 }
-.about, .Qualification, .skills, .teams, .contact, footer{
+.about, .skills, .Qualification, .contact, footer{
     font-family: 'Poppins', sans-serif;
 }
 .about .about-content,
-.Qualification .serv-content,
 .skills .skills-content,
-.teams .teams-content,
+.Qualification .serv-content,
 .contact .contact-content{
     display: flex;
     flex-wrap: wrap;
@@ -258,7 +257,7 @@ section .title::after{
     background: none;
 }
 
-/* services section styling */
+/* services section styling 
 .Qualification, .teams{
     color:#fff;
     background: #111;
@@ -302,7 +301,7 @@ section .title::after{
     font-size: 25px;
     font-weight: 500;
     margin: 10px 0 7px 0;
-}
+}*/
 
 /* skills section styling */
 
@@ -380,10 +379,10 @@ section .title::after{
 }
 
 /* teams section styling */
-.teams .title::after{
-    content: "who with me";
+.Qualification .title::after{
+    content: "what i educated";
 }
-.teams .carousel .card{
+.Qualification .carousel .card{
     background: #222;
     border-radius: 6px;
     padding: 25px 35px;
@@ -391,25 +390,25 @@ section .title::after{
     overflow: hidden;
     transition: all 0.3s ease;
 }
-.teams .carousel .card:hover{
+.Qualification .carousel .card:hover{
     background: crimson;
 }
-.teams .carousel .card .box{
+.Qualification .carousel .card .box{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     transition: all 0.3s ease;
 }
-.teams .carousel .card:hover .box{
+.Qualification .carousel .card:hover .box{
     transform: scale(1.05);
 }
-.teams .carousel .card .text{
+.Qualification .carousel .card .text{
     font-size: 25px;
     font-weight: 500;
     margin: 10px 0 7px 0;
 }
-.teams .carousel .card img{
+.Qualification .carousel .card img{
     height: 150px;
     width: 150px;
     object-fit: cover;
@@ -417,7 +416,7 @@ section .title::after{
     border: 5px solid crimson;
     transition: all 0.3s ease;
 }
-.teams .carousel .card:hover img{
+.Qualification .carousel .card:hover img{
     border-color: #fff;
 }
 .owl-dots{
@@ -620,10 +619,10 @@ footer span a:hover{
     .about .about-content .right{
         flex: 100%;
     }
-    .services .serv-content .card{
+    /*.services .serv-content .card{
         width: calc(50% - 10px);
         margin-bottom: 20px;
-    }
+    }*/
     .skills .skills-content .column,
     .contact .contact-content .column{
         width: 100%;
@@ -644,9 +643,9 @@ footer span a:hover{
     .home .home-content a{
         font-size: 20px;
     }
-    .services .serv-content .card{
+    /*.services .serv-content .card{
         width: 100%;
-    }
+    }*/
 }
 
 @media (max-width: 500px) {
