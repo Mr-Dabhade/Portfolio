@@ -256,6 +256,29 @@ section .title::after{
     color: crimson;
     background: none;
 }
+.about-content .column.right p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333;
+}
+
+.about-content .column.right a {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    background: #007BFF;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: 0.3s ease;
+}
+
+.about-content .column.right a:hover {
+    background: #0056b3;
+}
+
+
+
 
 /* services section styling 
 .Qualification, .teams{
