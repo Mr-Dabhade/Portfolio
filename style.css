@@ -262,7 +262,7 @@ section .title::after{
     color: #333;
 }
 
-.about-content .column.right a {
+/*.about-content .column.right a {
     display: inline-block;
     margin-top: 15px;
     padding: 10px 20px;
@@ -276,7 +276,7 @@ section .title::after{
 .about-content .column.right a:hover {
     background: #0056b3;
 }
-
+*/
 
 
 
