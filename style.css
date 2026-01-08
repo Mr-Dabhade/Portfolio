@@ -621,19 +621,22 @@ section .title::after{
     transition: width 1.2s ease;
 }
 .skills-content .right .html::before{
-    width: 90%;
+    width: 80%;
 }
 .skills-content .right .css::before{
     width: 60%;
 }
 .skills-content .right .js::before{
-    width: 80%;
+    width: 40%;
 }
 .skills-content .right .php::before{
-    width: 50%;
+    width: 80%;
 }
 .skills-content .right .mysql::before{
-    width: 70%;
+    width: 90%;
+}
+.skills-content .right .mysql::before{
+    width: 50%;
 }
 @media (max-width: 768px){
 
@@ -1042,3 +1045,4 @@ footer span a:hover{
         line-height: 38px;
     }
 }
+
