@@ -449,8 +449,9 @@ section .title::after{
  
 }
 .about .about-content .left img{
-    height: 400px;
-    width: 400px;
+    width: 100%;
+    max-width: 400px;   /* desktop साठी limit */
+    height: auto;
     object-fit: cover;
     border-radius: 6px;
 }
@@ -485,6 +486,42 @@ section .title::after{
 .about .about-content .right a:hover{
     color: #22d3ee;
     background: none;
+}
+
+
+@media (max-width: 577px) {
+
+    .about .about-content {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .about .about-content .left.profile-card.glass-card {
+        width: 100%;
+        padding: 15px;
+        border-radius: 20px;
+    }
+
+    .about .about-content .left img {
+        max-width: 240px;   /* mobile perfect size */
+    }
+}
+@media (max-width: 768px) {
+    .about .about-content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .about .about-content .left.profile-card.glass-card {
+        width: 100%;
+        text-align: center;
+        padding: auto;
+    }
+
+    .about .about-content .left img {
+        max-width: 280px;
+    }
 }
 
 /* services section styling */
@@ -1074,3 +1111,4 @@ footer span a:hover{
         line-height: 38px;
     }
 }
+
